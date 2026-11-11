@@ -24,8 +24,8 @@ public class Parcial {
 			throw new ImaginarioException(this.a, this.b, this.c);
 		}
 		else {
-			double x1 = -b+ (Math.sqrt(Math.pow(b, 2) - 4*a*c))/2*a;
-			double x2 = -b- (Math.sqrt(Math.pow(b, 2) - 4*a*c))/2*a;
+			double x1 = (-b+ (Math.sqrt(Math.pow(b, 2) - 4*a*c)))/(2*a);
+			double x2 = (-b- (Math.sqrt(Math.pow(b, 2) - 4*a*c)))/(2*a);
 			return "x1 = " + x1 + ", x2 = " + x2;
 		}
 	}
